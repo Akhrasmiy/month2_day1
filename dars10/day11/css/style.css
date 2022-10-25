@@ -8,6 +8,7 @@
 
 body {
     font-family: sans-serif;
+
 }
 
 ul {
@@ -1031,13 +1032,15 @@ ul li:nth-child(8) .boxcategory {
 .vedio h2:hover {
     padding-top: 0;
 }
-.first-vedio{
+
+.first-vedio {
     padding-top: 25px;
     position: relative;
     padding-bottom: 25px;
 }
-.first-vedio button{
-    padding:0px 5px;
+
+.first-vedio button {
+    padding: 0px 5px;
     background-color: #C23785;
     border: none;
     color: white;
@@ -1045,47 +1048,51 @@ ul li:nth-child(8) .boxcategory {
     top: 35px;
     left: 15px;
 }
-.first-vedio time{
+
+.first-vedio time {
     color: white;
     position: absolute;
     top: 230px;
     left: 15px;
-width: 144px;
-height: 12px;
-font-family: 'Sofia Pro';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 100.9%;
+    width: 144px;
+    height: 12px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100.9%;
 }
-.first-vedio h2{
-    
-position: absolute;
-width: 529px;
-height: 106px;
-left: 15px;
-top: 250px;
 
-color: white;
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 53px;
+.first-vedio h2 {
+
+    position: absolute;
+    width: 529px;
+    height: 106px;
+    left: 15px;
+    top: 250px;
+
+    color: white;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
 
 }
-.vedios{
+
+.vedios {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.vedioe{
+.vedioe {
     position: relative;
 
 }
-.vedio-btn{
-    padding:0px 5px;
+
+.vedio-btn {
+    padding: 0px 5px;
     background-color: #C23785;
     border: none;
     color: white;
@@ -1093,29 +1100,115 @@ line-height: 53px;
     top: 5px;
     left: 5px;
 }
-.vedioe{
+
+.vedioe {
     width: 270px;
     height: 300px;
 }
-.vedioe time{
+
+.vedioe time {
     padding-top: 15px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100.9%;
+
+    color: #393939;
+
+}
+
+.vedioe h2 {
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: #393939;
+    padding-top: 6px;
+}
+
+footer {
+    position: relative;
+    top: 200px;
+}
+
+.footercontainer {
+    max-width: 1440px;
+}
+.foootermain{
+    padding: 45px 0px 45px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.foootermain ul:nth-child(1) li:nth-child(2) {
+    width: 270px;
+    height: 61px;
+    color: #fff;
+    padding-top: 31px;
+    margin-bottom: 70px;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 148.1%;
+}
+.foootermain ul:nth-child(2){
+width: 270px;
+height: 250px;
+
+}
+.foootermain ul hr{
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+.foootermain ul li.text{
+    display: flex;
+    width: 270px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.foootermain ul li.text p{
+    color: white;
+    background-color:#1B7BFD;
+}
+.foootermain ul:nth-child(2) li:nth-child(1){
+width: 117px;
+height: 24px;
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100.9%;
+text-transform: capitalize;
+margin-bottom: 30px;
+color: #FFFFFF;
+}
+
+.foootermain ul li:nth-child(1){
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.foootermain ul:nth-child(4){
+    width: 270px;
+}
+.stay-list {
 font-family: 'Sofia Pro';
 font-style: normal;
 font-weight: 400;
-font-size: 10px;
-line-height: 100.9%;
-
-color: #393939;
-
-}
-.vedioe h2{
-    
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
 font-size: 14px;
-line-height: 21px;
+line-height: 149.1%;
+color: #FFf;
 
-color: #393939;
-padding-top: 6px;
 }
